@@ -62,3 +62,6 @@ class Invincible:
             self.__nivel_vida = 120
         print(f"{self.__nombre} recuperó vida. Vida actual: {self.__nivel_vida}")
     
+    #Personaje 
+    invencible1 = Invincible("Mark", 18, "Tierra", 90, 80)
+    invencible2 = Invincible("Mark", 18, "Tierra", 100, 70)
