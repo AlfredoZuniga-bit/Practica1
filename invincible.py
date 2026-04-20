@@ -22,6 +22,9 @@ class Invincible:
 
     def get_fuerza(self):
         return self.__fuerza
+    
+    def get_nivel_vida(self):
+        return self.__nivel_vida
 
     ##Setters
     def set_nombre(self, nombre):
@@ -39,6 +42,10 @@ class Invincible:
     def set_fuerza(self, fuerza):
         self.__fuerza = fuerza
 
+    def set_nivel_vida(self, nivel):
+        if nivel >= 0:
+            self.__nivel_vida = nivel
+
     def info(self):
         print(f"Nombre: {self.__nombre}, Edad: {self.__edad}, Planeta: {self.__planeta}, Velocidad: {self.__velocidad}, Fuerza: {self.__fuerza}")
 
@@ -47,5 +54,4 @@ class Invincible:
             print("No se puede usar el poder, nivel de vida mínimo")
           else:
             self.__nivel_vida -= 1
-            print(f"{self.__nombre} está usando su poder: {self.__poder}, nivel de vida actual: {self.__nivel_vida}") 
-
+            print(f"{self.__nombre} está usando su poder, nivel de vida actual: {self.__nivel_vida}")
