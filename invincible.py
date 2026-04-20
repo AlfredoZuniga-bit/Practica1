@@ -37,3 +37,7 @@ class Invincible:
 
     def set_fuerza(self, fuerza):
         self.__fuerza = fuerza
+
+    def info(self):
+        print(f"Nombre: {self.__nombre}, Edad: {self.__edad}, Planeta: {self.__planeta}, Velocidad: {self.__velocidad}, Fuerza: {self.__fuerza}")
+        
