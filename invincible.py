@@ -55,3 +55,10 @@ class Invincible:
           else:
             self.__nivel_vida -= 1
             print(f"{self.__nombre} está usando su poder, nivel de vida actual: {self.__nivel_vida}")
+
+    def recuperar_vida(self, cantidad):
+        self.__nivel_vida += cantidad
+        if self.__nivel_vida > 120:
+            self.__nivel_vida = 120
+        print(f"{self.__nombre} recuperó vida. Vida actual: {self.__nivel_vida}")
+    
