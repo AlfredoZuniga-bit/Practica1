@@ -69,3 +69,7 @@ invencible2 = Invincible("Nolan", 400, "Viltrum", 300, 500)
 # Ver info
 invencible1.info()
 invencible2.info()
+
+#Usar poderes
+invencible1.usar_poder()
+invencible2.usar_poder()
