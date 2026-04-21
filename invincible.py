@@ -63,5 +63,9 @@ class Invincible:
         print(f"{self.__nombre} recuperó vida. Vida actual: {self.__nivel_vida}")
     
     #Personaje 
-    invencible1 = Invincible("Mark", 18, "Tierra", 90, 80)
-    invencible2 = Invincible("Mark", 18, "Tierra", 100, 70)
+invencible1 = Invincible("Mark", 18, "Tierra", 100, 100)
+invencible2 = Invincible("Nolan", 400, "Viltrum", 300, 500)
+
+# Ver info
+invencible1.info()
+invencible2.info()
