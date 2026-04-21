@@ -53,7 +53,7 @@ class Invincible:
           if self.__nivel_vida < 10:
             print("No se puede usar el poder, nivel de vida mínimo")
           else:
-            self.__nivel_vida -= 1
+            self.__nivel_vida -= 20
             print(f"{self.__nombre} está usando su poder, nivel de vida actual: {self.__nivel_vida}")
 
     def recuperar_vida(self, cantidad):
@@ -73,3 +73,6 @@ invencible2.info()
 #Usar poderes
 invencible1.usar_poder()
 invencible2.usar_poder()
+
+#Recuperar vida 
+invencible1.recuperar_vida(15)
